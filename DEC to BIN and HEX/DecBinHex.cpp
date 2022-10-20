@@ -8,7 +8,6 @@ void main()
     // Из DEC в BIN
     int dec; int bin = 0; int buff = 1;
     cout << "Введите десятичное число: "; cin >> dec;
-    
     while (dec)
     {
         bin += (dec % 2) * buff;
